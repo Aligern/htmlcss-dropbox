@@ -54,6 +54,9 @@ nav li {
 	padding: 10px;
 	margin: 0px 10px 0px 10px;
 }
+nav img {
+	margin-left: 15px;
+}
 
 .btn {
 	background-color: var(--color-blue-intense);
@@ -97,7 +100,7 @@ h1 {
 }
 
 #hero i {
-	padding-bottom: 20px;
+	padding-bottom: 24px;
 	font-size: 4em;
 }
 
