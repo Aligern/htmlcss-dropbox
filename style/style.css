@@ -95,19 +95,28 @@ h1 {
 }
 
 #hero a.btn {
-	width: 50%;
+	width: 40%;
+}
+
+#hero i {
+	padding-bottom: 53px;
 }
 
 .left {
-	width: 30%;
+	width: 40%;
 }
 
 .right {
-	width: 70%;
+	width: 60%;
 }
 
 .text-align {
 	text-align: center;
+}
+
+.p-relative {
+	position: relative;
+	top: 50px;
 }
 
 /* Footer */
@@ -134,4 +143,8 @@ h1 {
 
 .flex-column {
 	flex-direction: column;
+}
+
+.flex-end {
+	justify-content: flex-end;
 }
