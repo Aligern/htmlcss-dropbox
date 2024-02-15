@@ -1,0 +1,29 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+.debug {
+    border: 2px solid red;
+}
+
+/* General */
+:root {
+	--color-light-blue: #b4d0e7;
+	--color-blue-intense: #0061ff;
+	--color-main-color: #ffffff;
+	--color-black: #000000;
+	--color-light-green: #a2d39b;
+	--color-card-blue: #0093ce;
+	--color-red-card: #ff1c1c;
+	--color-card-violet: #61082b;
+	--color-high-red: #d5001f;
+	--color-high-blue: #0d2481;
+	--color-funny-yellow: #ffd830;
+	--color-ocra: #f5f5f5;
+}
