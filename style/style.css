@@ -18,6 +18,10 @@ a {
     border: 2px solid red;
 }
 
+img {
+	max-width: 100%;
+}
+
 /* General */
 :root {
 	--color-light-blue: #b4d0e7;
@@ -40,7 +44,12 @@ body {
 	font-family: 'Open sans', sans-serif ;
 }
 
+header {
+	background-color: var(--color-light-blue)
+}
+
 nav {
+	background-color: var(--color-main-color);
 	position: fixed;
 	z-index: 5000;
 	width: 100%;
@@ -61,17 +70,22 @@ nav button {
 	margin-right: 10px;
 }
 
-#hero {
-	background-color: #b4d0e7;
-	margin-top: 70px;
+.container {
+	width: 1200px;
+	margin: 0 auto;
 }
+
+#hero {
+	margin-top: 70px;
+	
+}
+
 
 .text-align {
 	text-align: center;
 }
 
 /* Footer */
-
 
 
 /* Flex Utilities */
@@ -87,4 +101,12 @@ nav button {
 
 .s-between {
 	justify-content: space-between;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-column {
+	flex-direction: column;
 }
