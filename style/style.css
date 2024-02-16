@@ -85,7 +85,6 @@ nav img {
 .right {
 	width: 60%;
 }
-
 .text-center {
 	text-align: center;
 }
@@ -191,7 +190,6 @@ input {
 }
 .padding-2 {
 	padding: 15px;
-	padding-bottom: 30px;
 }
 .li-padding {
 	padding-top: 10px;
@@ -253,5 +251,10 @@ width: 40%;
 .card-padding {
 	padding-top: 30px;
 }
-
+#dropbox-bus h3{
+	font-size: 2.4em;
+}
+#a-space {
+	padding: 60px 0px;
+}
 /* Footer */
