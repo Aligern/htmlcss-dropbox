@@ -263,10 +263,14 @@ width: 40%;
 .icons-calc {
 	width: calc(100% / 2);
 	aspect-ratio: 1/1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .icons-calc img {
 	width: 50%;
 	filter: invert(100%);
+
 }
 #img-bg-1 {
 	background-color: var(--color-light-green)
@@ -281,7 +285,11 @@ width: 40%;
 	background-color:var(--color-red-card) ;
 }
 #mid-icon {
+	padding: 50px;
 	background-color: var(--color-ocra);
+}
+#mid-icon p {
+	padding-top: 60px;
 }
 #img-bg-5 {
 	background-color: var(--color-high-red);
@@ -294,6 +302,11 @@ width: 40%;
 }
 #img-bg-8 {
 	background-color:var(--color-funny-yellow) ;
+}
+#icon-line {
+	border-top: 1px solid lightgray;
+	width: 60px;
+	margin-top: 60px;
 }
 
 /* Footer */
