@@ -227,6 +227,25 @@ input {
 	width: 30%;
 	padding-left: 80px;
 }
+#partner-left {
+	width: 60%;
+}
+#partner-left img {
+	display: block;
+}
+#partner-right {
+width: 40%;
+}
+#partner-right p{
+	padding-top: 40px;
+}
+#partner-right div {
+	padding-top: 40px;
+}
+#partner-right div>a {
+	border: 1px solid var(--color-black);
+	padding: 10px;
+}
 /* Footer */
 
 
