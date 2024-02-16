@@ -65,7 +65,7 @@ nav img {
 .btn {
 	display: inline-block;
 	background-color: var(--color-blue-intense);
-	padding: 5px 10px;
+	padding: 7px 13px;
 	color: var(--color-main-color);
 	border: none;
 	margin-right: 20px;
@@ -104,6 +104,9 @@ nav img {
 }
 .text-grey {
 	color: grey;
+}
+.text-white {
+	color: white;
 }
 
 /* Flex Utilities */
@@ -165,14 +168,14 @@ main h2 {
 input {
 	margin: 8px;
 }
-.section-1 {
+.section-pad {
 	padding: 20px 30px;
 }
-.section-1 h3 {
+.section-pad h3 {
 	font-size: 1.8em;
 	font-weight: 700;
 }
-.section-1 strong {
+.section-pad strong {
 	font-size: 14px;
 }
 .box-border {
@@ -197,7 +200,7 @@ input {
 	color: var(--color-main-color);
 	border: none;
 	text-align: center;
-	padding: 7px;
+	padding: 10px;
 	margin: 20px;
 }
 #gap-card {
@@ -208,7 +211,19 @@ input {
 	width: 60px;
 	margin: 10px;
 }
-
+#enterprise-w {
+	width: 100%;
+}
+.enterprise-border {
+	border: 1px solid lightgray;
+}
+#enterprise-left {
+	width: 70%;
+}
+#enterprise-right {
+	width: 30%;
+	padding-left: 80px;
+}
 /* Footer */
 
 
