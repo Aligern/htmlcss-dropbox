@@ -68,6 +68,7 @@ nav img {
 	padding: 5px 10px;
 	color: var(--color-main-color);
 	border: none;
+	margin-right: 20px;
 }
 .container {
 	width: 1200px;
@@ -96,6 +97,13 @@ nav img {
 }
 .text-align {
 	text-align: center;
+}
+.text-indent {
+	text-indent: -0.7em;
+	padding-left: 2.2em;
+}
+.text-grey {
+	color: grey;
 }
 
 /* Flex Utilities */
@@ -146,8 +154,6 @@ h1 {
 	position: relative;
 	top: 25px;
 }
-
-
 /* Main */
 main {
 	margin-top: 45px;
@@ -160,10 +166,14 @@ input {
 	margin: 8px;
 }
 .section-1 {
-	padding: 30px 40px;
+	padding: 20px 30px;
 }
-.section-1 {
-	
+.section-1 h3 {
+	font-size: 1.8em;
+	font-weight: 700;
+}
+.section-1 strong {
+	font-size: 14px;
 }
 .box-border {
 	width: calc(100% / 3);
@@ -176,11 +186,11 @@ input {
 	padding: 10px 0px;
 }
 .padding-2 {
-	padding: 25px;
-	padding-bottom: 40px;
+	padding: 15px;
+	padding-bottom: 30px;
 }
 .li-padding {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .box-btn {
 	background-color: var(--color-blue-intense);
