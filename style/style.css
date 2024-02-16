@@ -266,5 +266,6 @@ width: 40%;
 }
 .icons-calc {
 	width: calc(100% / 2);
+	aspect-ratio: 1/1;
 }
 /* Footer */
