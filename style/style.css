@@ -153,7 +153,6 @@ h1 {
 #hero .left {
 	margin-right: 100px;
 }
-
 .p-relative {
 	position: relative;
 	top: 25px;
@@ -261,11 +260,40 @@ width: 40%;
 #a-space {
 	padding: 60px 0px;
 }
-#icons {
-	width: calc(100% / 3);
-}
 .icons-calc {
 	width: calc(100% / 2);
 	aspect-ratio: 1/1;
 }
+.icons-calc img {
+	width: 50%;
+	filter: invert(100%);
+}
+#img-bg-1 {
+	background-color: var(--color-light-green)
+}
+#img-bg-2 {
+	background-color: var(--color-card-violet);
+}
+#img-bg-3 {
+	background-color:var(--color-card-blue) ;
+}
+#img-bg-4 {
+	background-color:var(--color-red-card) ;
+}
+#mid-icon {
+	background-color: var(--color-ocra);
+}
+#img-bg-5 {
+	background-color: var(--color-high-red);
+}
+#img-bg-6 {
+	background-color: var(--color-light-blue);
+}
+#img-bg-7 {
+	background-color:var(--color-high-blue) ;
+}
+#img-bg-8 {
+	background-color:var(--color-funny-yellow) ;
+}
+
 /* Footer */
