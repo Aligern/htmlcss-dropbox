@@ -87,6 +87,16 @@ nav img {
 .text-center {
 	text-align: center;
 }
+.text-blue {
+	color: var(--color-blue-intense);
+	font-size: 1em;
+}
+.blue-decal {
+	text-decoration: underline;
+}
+.text-align {
+	text-align: center;
+}
 
 /* Flex Utilities */
 .d-flex {
@@ -131,9 +141,7 @@ h1 {
 #hero .left {
 	margin-right: 100px;
 }
-.text-align {
-	text-align: center;
-}
+
 .p-relative {
 	position: relative;
 	top: 25px;
@@ -154,6 +162,9 @@ input {
 .section-1 {
 	padding: 30px 40px;
 }
+.section-1 {
+	
+}
 .box-border {
 	width: calc(100% / 3);
 	border: 1px solid lightgray;
@@ -165,7 +176,8 @@ input {
 	padding: 10px 0px;
 }
 .padding-2 {
-	padding: 20px;
+	padding: 25px;
+	padding-bottom: 40px;
 }
 .li-padding {
 	padding-top: 20px;
@@ -176,6 +188,14 @@ input {
 	border: none;
 	text-align: center;
 	padding: 7px;
+	margin: 20px;
+}
+#gap-card {
+	column-gap: 40px;
+}
+#line {
+	border-top: 1px solid lightgray;
+	width: 60px;
 	margin: 20px;
 }
 
