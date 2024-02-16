@@ -59,13 +59,15 @@ nav img {
 .margin-auto {
 	margin: 0 auto;
 }
+.margin-top {
+	margin: 30px;
+}
 .btn {
 	display: inline-block;
 	background-color: var(--color-blue-intense);
 	padding: 5px 10px;
 	color: var(--color-main-color);
 	border: none;
-	margin-right: 10px;
 }
 .container {
 	width: 1200px;
@@ -143,10 +145,14 @@ main {
 	margin-top: 45px;
 }
 main h2 {
+	font-size: 2.5em;
 	margin-bottom: 30px;
 }
 input {
 	margin: 8px;
+}
+.section-1 {
+	padding: 30px 40px;
 }
 .box-border {
 	width: calc(100% / 3);
@@ -155,13 +161,22 @@ input {
 .box-border-b {
 	border-bottom: 1px solid lightgray;
 }
-
 .padding {
 	padding: 10px 0px;
 }
-
 .padding-2 {
 	padding: 20px;
+}
+.li-padding {
+	padding-top: 20px;
+}
+.box-btn {
+	background-color: var(--color-blue-intense);
+	color: var(--color-main-color);
+	border: none;
+	text-align: center;
+	padding: 7px;
+	margin: 20px;
 }
 
 /* Footer */
