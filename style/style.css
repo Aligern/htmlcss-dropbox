@@ -324,6 +324,9 @@ width: 40%;
 	background-color: var(--color-main-color);
 	padding: 10px 20px;
 }
+#faq {
+	padding: 100px 0px;
+}
 #faq h3 {
 	font-size: 3em;
 	padding: 50px 0px;
@@ -338,3 +341,24 @@ width: 40%;
 	/* list-style: none; */
 }
 /* Footer */
+footer {
+	background-color: var(--color-black);
+	color: var(--color-main-color);
+	padding: 40px;
+}
+footer a {
+	color: var(--color-main-color);
+}
+footer li {
+	padding: 7px 0px;
+}
+footer h4 {
+	font-size: 1.5em;
+	padding-bottom: 20px;
+}
+#footer-line {
+	border-top: 1px solid lightgray;
+	width: 60px;
+	margin-top: 50px;
+	padding: 20px;
+}
